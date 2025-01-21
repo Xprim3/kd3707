@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rise of Kingdoms Alliance</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="public/logo.svg" alt="">
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Rules</a></li>
+            <li><a href="#">Migration</a></li>
+            <li><a href="#">Whales</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Podcasts</a></li>
+            <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="overlay" onclick="toggleMenu()"></div>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            var overlay = document.getElementById('overlay');
+            menu.classList.toggle('show');
+            overlay.classList.toggle('show');
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

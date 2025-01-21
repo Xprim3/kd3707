@@ -1,0 +1,5 @@
+import "../styles/general.css"
+import "../styles/header.css"
+import "../styles/main.css"
+import "../styles/section.css"
+import "../styles/footer.css"
